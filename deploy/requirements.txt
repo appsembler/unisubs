@@ -1,40 +1,40 @@
-# patched version of lib, fix for socket errors on rabbitmq
+ # patched version of lib, fix for socket errors on rabbitmq
 # from http://code.google.com/p/py-amqplib/issues/detail?id=38
-vendor/amqplib-1.0.2-patched.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/amqplib-1.0.2-patched.tar.gz
 Django==1.3
 Fabric==1.4.0
 PIL==1.1.7
 PyRSS2Gen==1.0.0
 PyYAML==3.09
 South==0.7
-vendor/django-registration.tar.gz
-vendor/django-piston.tar.gz
-vendor/django-livesettings.tar.gz
-vendor/django-keyedcache.tar.gz
-vendor/django-storages.tar.gz
-vendor/python-openid-2.2.5.tar.gz
-vendor/python-yadis-1.1.0.tar.gz
-vendor/sorl-thumbnail-3.2.5.tar.gz
-vendor/gdata-2.0.16.tar.gz
-vendor/django-math-captcha-0.1.tar.gz
-vendor/BeautifulSoup-3.2.0.tar.gz
-vendor/celery-2.4.3.tar.gz
-vendor/django-celery-2.4.2.tar.gz
-vendor/pycrypto-2.1.0.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-registration.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-piston.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-livesettings.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-keyedcache.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-storages.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/python-openid-2.2.5.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/python-yadis-1.1.0.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/sorl-thumbnail-3.2.5.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/gdata-2.0.16.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-math-captcha-0.1.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/BeautifulSoup-3.2.0.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/celery-2.4.3.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-celery-2.4.2.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/pycrypto-2.1.0.tar.gz
 oauth==1.0.1
 oauth2==1.2.0
 pyOpenSSL==0.9
-vendor/redis-2.4.5.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/redis-2.4.5.tar.gz
 simplejson==2.1.1
 django-haystack==1.2.4
 pysolr==2.0.14
 chardet==1.0.1
-vendor/boto-2.1.0-0.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/boto-2.1.0-0.tar.gz
 python-memcached
 feedparser
 lxml==2.3
 raven==1.8.2
-vendor/indifex-transifex-client-0.5.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/indifex-transifex-client-0.5.tar.gz
 django-extensions==0.4.1
 # do we really need this in prod?
 django-debug-toolbar==0.8.3
@@ -42,12 +42,12 @@ django-debug-toolbar==0.8.3
 MySQL_python>=1.2.2
 Sphinx==1.1.3
 # pyfacebook needs to be forked as not do fight with oboeware
-vendor/pyfacebook-1.0a2.tar.gz
-vendor/Unidecode-0.04.9.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/pyfacebook-1.0a2.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/Unidecode-0.04.9.tar.gz
 M2Crypto==0.21.1
-vendor/django-templatetag-sugar.tar.gz
-vendor/django-tastypie-0.9.11.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-templatetag-sugar.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/django-tastypie-0.9.11.tar.gz
 # this should be commented until we are sure we want to deploy this to prod
-#vendor/oboe-0.4.1.0.tar.gz
-vendor/requests-v0.9.1.0-0.tar.gz
+#/staging/staged/app/unisubs/deploy/vendor/oboe-0.4.1.0.tar.gz
+/staging/staged/app/unisubs/deploy/vendor/requests-v0.9.1.0-0.tar.gz
 bernhard==0.0.2
